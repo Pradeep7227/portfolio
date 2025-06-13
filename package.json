@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@shadcn/ui": "^0.4.2",
+    "@shadcn/ui": "^0.3.6",
     "framer-motion": "^10.12.16",
     "lucide-react": "^0.267.0",
     "react": "^18.2.0",

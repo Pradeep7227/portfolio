@@ -1,0 +1,104 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f7f8;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #3a3a52, #6b6b83);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.centered-header {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.centered-nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.nav-btn {
+  display: inline-block;
+  background-color: #0077cc;
+  color: white;
+  padding: 12px 25px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.nav-btn:hover {
+  background-color: #005fa3;
+}
+
+.top-nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.top-nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+}
+
+.intro-section {
+  text-align: center;
+  padding: 2rem;
+}
+
+.profile-photo {
+  width: 160px;
+  border-radius: 10%;
+  margin-bottom: 1rem;
+  border: 3px solid #0077cc;
+}
+
+.project-list {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.project {
+  background: white;
+  margin-bottom: 2rem;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-section {
+  text-align: center;
+  padding: 2rem;
+  background: #fff;
+  margin: 2rem auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}

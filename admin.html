@@ -1,0 +1,19 @@
+<html><body>
+<h2>Admin Panel</h2>
+<input type="password" id="adminPass" placeholder="Enter Admin Password"/>
+<button onclick="checkAccess()">Login</button>
+<div id="adminForm" style="display:none;">
+  <h3>Update Content (not functional – UI only)</h3>
+  <textarea rows="6" cols="50">Update this section with new details</textarea>
+</div>
+<script>
+  function checkAccess() {
+    const pass = document.getElementById("adminPass").value;
+    if (pass === "yourpassword") {
+      document.getElementById("adminForm").style.display = "block";
+    } else {
+      alert("Incorrect password");
+    }
+  }
+</script>
+</body></html>
